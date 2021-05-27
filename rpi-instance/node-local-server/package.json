@@ -1,0 +1,17 @@
+{
+  "name": "rpi-node-local-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mgrin",
+  "license": "MIT",
+  "dependencies": {
+    "ngrok": "^3.4.0",
+    "request": "^2.88.2",
+    "socket.io-client": "^3.0.4",
+    "systeminformation": "^4.33.4"
+  },
+  "scripts": {
+    "start:monitoring": "node index.monitoring.js",
+    "start:io": "node index.io.js"
+  }
+}
